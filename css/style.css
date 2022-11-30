@@ -2,6 +2,10 @@ body {
     background-color: tan;
 }
 
+body.bgColor {
+    background-color: pink;
+}
+
 header {
     display: flex;
     flex-direction: column;
