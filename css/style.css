@@ -1,3 +1,48 @@
 body {
     background-color: tan;
 }
+
+body.bgColor {
+    background-color: pink;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+label {
+    /* Uniform size & alignment */
+    text-align: center;
+  }
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media (min-width: 600px) {
+    header {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .form {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .enroll {
+        display: flex;
+        justify-content: space-around;
+    }
+}
